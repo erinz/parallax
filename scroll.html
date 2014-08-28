@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#cat1{
+			position: absolute; 
+			left: 0px;
+		}
+		body{
+			margin: 0px;
+		}
+		.parallax{
+			position: absolute;
+		}
+		.container{
+			height: 600px;
+			width: 100%;
+			background-image: url('images/blue_bg.jpg');
+			overflow: hidden;
+		}
+		#needle-tall{
+			height: 600px;
+			right: 0px;
+		}
+		#needle-wire{
+			right: 45px;
+		}
+		#elevator{
+			right: 34px;
+			top: -250px;
+		}
+		#cloud{
+			left: 500px;
+		}
+		#plane{
+			top: 200px;
+			height: 36px;
+		}
+	</style>
+</head>
+<body>
+	<div class="parallax container">
+		<img id="plane" class="parallax" src="images/plane.png"/>
+		<img id="cloud" class="parallax" src="images/clouds.png"/>
+		<img id="needle-wire" class="parallax" src="images/wires.png"/>
+		<img id="elevator" class="parallax" src="images/elevator.png"/>
+		<img id="needle-tall" class="parallax" src="images/needle-tall.png"/>
+	</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
+</html>
